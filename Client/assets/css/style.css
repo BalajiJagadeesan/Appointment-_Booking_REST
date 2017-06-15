@@ -1,0 +1,27 @@
+@import "materialize.clockpicker.css";
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+ul.dropdown-content.select-dropdown li span {
+    color: #000; /* no need for !important :) */
+}
+
+/* label color */
+.input-field label {
+    color: green;
+}
+/* label focus color */
+.input-field input:focus + label {
+    color: green;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px  green;
+    box-shadow: 0 1px 0 0 green;
+}
